@@ -200,24 +200,6 @@ Rscript Scripts/08_make_plots.R
 12. **miRNA sites**: Number of miRNA seed matches (top 20 human miRNAs)
 13. **miRNA density**: miRNA sites per 1000 bp
 
-## Results
-
-### Model Performance (Test Set)
-- Pearson correlation: r = 0.227
-- Spearman correlation: ρ = [value from your results]
-- Median absolute error: [value] hours
-
-### CASP9 Mutation Analysis
-- Average effect per synonymous mutation: ~0.0001-0.001 hours
-- Maximum observed change: [value]% from wildtype
-- Correlation between mutation count and stability: r = [value]
-
-### Key Findings
-- Long-lived mRNAs (>15 hrs) show [specific behavior]
-- Top features driving predictions: [list from Figure 2]
-- Synonymous mutations have minimal effect on predicted stability
-- Features most sensitive to mutations: CAI, miRNA binding sites
-
 ## Directory Structure
 ```
 rna-halflife-prediction/
